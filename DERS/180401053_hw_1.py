@@ -1,4 +1,4 @@
-\\Programın çalışması için C dizini altında metin dosyaları ve input.txt dosyası bulunması gerekmektedir.\\
+#Programın çalışması için C dizini altında metin dosyaları ve input.txt dosyası bulunması gerekmektedir.
 
 import os
 import re
@@ -80,7 +80,7 @@ def getNextText(text):
         output_list.append(find_dic_max(main_dict))
         main_dict.clear()
     else:
-        output_list.append("Hatalı giriş: En fazla 5 kelimeden fazla girdiniz.")
+        output_list.append("Hatalı giriş: En fazla 5 kelime giriniz.")
 
 with open(source, "r", encoding="utf-8") as file:
     content = file.readlines()
