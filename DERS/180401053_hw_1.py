@@ -1,4 +1,4 @@
-\ Programın çalışması için C dizini altında metin dosyaları ve input.txt dosyası bulunması gerekmektedir.\
+\\Programın çalışması için C dizini altında metin dosyaları ve input.txt dosyası bulunması gerekmektedir.\\
 
 import os
 import re
